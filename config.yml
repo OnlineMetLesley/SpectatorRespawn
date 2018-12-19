@@ -1,0 +1,39 @@
+#Hello this plugin is made by OnlineMetlesley.
+#Autorespawn set to true to enable it, then setup the message and time in seconds.
+#KickonDeath set to true to enable it, then setup the command 
+#If you have any questions or bug reports, please join our discord. https://discord.gg/xAHP8cA
+
+#The message when the player dies
+DeathMessage: '&c(!) Hey %player%, you just died and got into Spectator Mode!'
+
+#Enable sounds when the player dies?
+playsound: true
+
+#Should the plugin broadcast a message when the player dies
+Broadcast: true
+BroadcastMessage: '&7%player% &cdied'
+
+#playsound has to be on to let a sound work. Use a sound of this site: https://hub.spigotmc.org/javadocs/spigot/org/bukkit/Sound.html
+sound: 'BLOCK_LAVA_EXTINGUISH'
+
+#Send a effect when the player dies
+HeartEffect: true
+
+#Should the plugin send a command when the player dies?
+deathcommand: true
+deathcommands:
+  - 'spawn %player%'
+
+#The message when the player respawned
+respawnMessage: '&b(!) You just respawned!'
+
+#The respawn title and subtitle
+respawntitle: '&cRespawned!'
+respawnedsubtitle: '&bDont die again'
+
+#Autorespawn?
+autorespawn: true
+AutoRespawn: 
+  AutoRespawnMessage: '&b(!) You just died and you will get respawned in 10 seconds!'
+  time: 10
+

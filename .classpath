@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="D:/Downloads/spigot-1.8-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="D:/Downloads/spigot-1.13 (1).jar"/>
+	<classpathentry kind="lib" path="D:/Downloads/spigot-1.11.jar"/>
+	<classpathentry kind="lib" path="D:/Downloads/spigot-1.10-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="D:/Downloads/spigot-1.9-R0.1-SNAPSHOT-latest.jar"/>
+	<classpathentry kind="lib" path="D:/Downloads/spigot-1.12 (1).jar"/>
+	<classpathentry kind="lib" path="D:/Downloads/TitleAPI-1.7.7.jar"/>
+	<classpathentry kind="lib" path="D:/Downloads/ParticleAPI_v2.1.1.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
